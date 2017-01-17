@@ -39,7 +39,7 @@ SIMPLE_HTML = jinja2.Template("""
 # result in an error.  This is suitable for use within the IPython notebook.
 REQUIREJS_HTML = jinja2.Template("""
 
-<link rel="stylesheet" type="text/css" href="{{ ldavis_css_url }}">
+<link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/TiesdeKok/pyLDAvis/master/pyLDAvis/js/ldavis.v1.0.0.css">
 
 <div id={{ visid }}></div>
 <script type="text/javascript">
